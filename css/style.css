@@ -26,6 +26,13 @@ body {
 .top_header_content a {
     text-decoration: none;
 }
+.city_info {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
 .main-overlay {
     width: 100%;
 }
@@ -112,7 +119,7 @@ body {
     align-items: center;
 }
 .s_networks {
-    width: 8.9vw;
+    width: 12.1vw;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -127,6 +134,7 @@ body {
 }
 .s_networks a {
     color: #000;
+    margin: 2px;
 }
 .s_networks a:hover {
     color: #bd2631;
@@ -736,6 +744,32 @@ footer h3 {
     font-size: 20px;
 }
 
+/*ICONS*/
+.number i, .loc i{
+    font-size: 1.5em;
+    color: #000000;
+}
+.loc i {
+    margin-bottom: 3px;
+}
+.down_header_titles i {
+    font-size: 18px;
+    color: #575757;
+}
+.search i {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+.menu_city i {
+    font-size: 21px;
+    color: #ffffff;
+    margin: 0 0 2px 17px;
+}
+.mobil_menu i {
+    color: #fff;
+    font-size: 20px;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1300px) {
     .ups_content {
@@ -778,6 +812,18 @@ footer h3 {
         -webkit-transition: all .5s;
         transition: all .5s;
     }
+    .number span {
+        display: none;
+    }
+    .number i {
+        cursor: pointer;
+    }
+    .number i:hover .number span {
+        display: inline;
+    }
+    .street span {
+        display: none;
+    }
 }
 @media screen and (max-width: 945px) {
     .f_header_title, .s_header_title, .t_header_title {
@@ -818,7 +864,12 @@ footer h3 {
         transition: all .5s;
     }
     .s_networks {
+<<<<<<< HEAD
         width: 11vw;
+=======
+        width: 15vw; 
+        transition: all .5s;
+>>>>>>> e36e001e4ec36d01c3148153ab8003732546e02d
     }
 }
 @media screen and (max-width: 768px) {
@@ -922,6 +973,7 @@ footer h3 {
         opacity: 1;
     }
     .s_networks {
+<<<<<<< HEAD
         flex-direction: column;
         transition: all .5s;
     }
@@ -939,6 +991,20 @@ footer h3 {
         margin-top: 10px;
         flex-direction: column;
     }
+=======
+        width: 15vw; 
+        transition: all .5s;
+    }
+/*
+    .city_info {
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex: auto;
+    }
+*/
+>>>>>>> e36e001e4ec36d01c3148153ab8003732546e02d
 }
 @media screen and (max-width: 425px) {
     .slider_text {
