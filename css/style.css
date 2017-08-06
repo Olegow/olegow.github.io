@@ -778,6 +778,9 @@ footer h3 {
         -webkit-transition: all .5s;
         transition: all .5s;
     }
+    .s_white_block_content {
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 1024px) {
     .white_block {
