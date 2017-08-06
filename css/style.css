@@ -997,6 +997,9 @@ footer h3 {
     }
 }
 @media screen and (max-width: 860px) {
+    .photo5 {
+        background-color: #fff;
+    }
     .photo5 img {
         width: 50%;
     }
@@ -1041,6 +1044,13 @@ footer h3 {
     }
     .slider h3 {
         font-size: 18px;
+    }
+}
+@media screen and (max-width: 442px) {
+    .down_header_titles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width: 769px) {
