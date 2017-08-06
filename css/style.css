@@ -588,6 +588,7 @@ body {
 .gallery .red_title {
     margin-top: -7px;
     height: 73px;
+    text-align: center;
     background: #bd2631;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -812,23 +813,14 @@ footer h3 {
         -webkit-transition: all .5s;
         transition: all .5s;
     }
-    .number span {
-        display: none;
-    }
-    .number i {
-        cursor: pointer;
-    }
-    .number i:hover .number span {
-        display: inline;
-    }
-    .street span {
-        display: none;
+    .red_title {
+        font-size: 17px;
     }
 }
 @media screen and (max-width: 945px) {
     .f_header_title, .s_header_title, .t_header_title {
         border-left: none;
-        padding: 2px;
+        padding: 4px;
         -webkit-transition: all .5s;
         transition: all .5s;
     }
@@ -864,12 +856,9 @@ footer h3 {
         transition: all .5s;
     }
     .s_networks {
-<<<<<<< HEAD
         width: 11vw;
-=======
         width: 15vw; 
         transition: all .5s;
->>>>>>> e36e001e4ec36d01c3148153ab8003732546e02d
     }
 }
 @media screen and (max-width: 768px) {
@@ -973,8 +962,8 @@ footer h3 {
         opacity: 1;
     }
     .s_networks {
-<<<<<<< HEAD
         flex-direction: column;
+        width: auto;
         transition: all .5s;
     }
     .city_info {
@@ -991,20 +980,6 @@ footer h3 {
         margin-top: 10px;
         flex-direction: column;
     }
-=======
-        width: 15vw; 
-        transition: all .5s;
-    }
-/*
-    .city_info {
-        flex-direction: column;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex: auto;
-    }
-*/
->>>>>>> e36e001e4ec36d01c3148153ab8003732546e02d
 }
 @media screen and (max-width: 425px) {
     .slider_text {
